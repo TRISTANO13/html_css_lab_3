@@ -39,19 +39,15 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#curriculum">Curriculum</a>
+                            <a class="nav-link" href="#advices">Advices</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#instructors">Our Instructors</a>
+                            <a class="nav-link" href="#artists">Artists</a>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link" href="#faq">FAQ</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#testimonial">Students Testimonial</a>
                         </li>
 
                         <li class="nav-item">
@@ -329,7 +325,7 @@
 
 
     <!-- Curriculum Section -->
-    <section id="curriculum" class="container">
+    <section id="advices" class="container">
         <!--  align-items-center => align the items vertically -->
         <div class="row align-items-center">
             <div class="col-md border border-secondary rounded-3 bg-light p-2">
@@ -379,7 +375,7 @@
     <br>
 
     <!-- Instructors Section -->
-    <section id="instructors" class="container text-center">
+    <section id="artists" class="container text-center">
         <h2>The artists we love</h2>
         <p class="lead text-center">Learn more about them</p>
         <div class="row">
@@ -476,6 +472,7 @@
             </div>
         </div> <!-- End div.row -->
     </section> <!-- end section#instructors -->
+    <br>
 
     <!--
         Accordion:
@@ -509,7 +506,7 @@
                          -->
                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            What I will learn?
+                            How should I properly store and handle my vinyl records to ensure they last?
                         </button>
                         <!--
                             Notice that => data-bs-target="#collapseOne"
@@ -525,7 +522,7 @@
                             The answer of its related question
                         -->
                         <div class="accordion-body">
-                            <p>You will study the front end and the back end tools.</p>
+                            <p>Vinyl records should be stored vertically and never stacked on top of each other to prevent warping. When handling, touch only the edges and labeled areas to avoid getting oils from your fingers on the playing surface. It's also advisable to keep them in protective inner and outer sleeves to shield them from dust and potential scratches.</p>
                         </div>
                     </div>
                 </div>
@@ -535,13 +532,13 @@
                     <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Should I have any experience before joining this program
+                            Why do some enthusiasts believe vinyl sounds better than digital formats?
                         </button>
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                         data-bs-parent="#accordFAQ">
                         <div class="accordion-body">
-                            <p>No need, as this program is designed to take you from A to Z.</p>
+                            <p>Many vinyl enthusiasts argue that vinyl provides a warmer, more organic sound compared to digital formats. They believe that analog recordings capture the full range of audible frequencies, giving a richer and more complete representation of the original sound, while some digital formats might compress or omit certain frequencies.</p>
                         </div>
                     </div>
                 </div>
@@ -551,40 +548,29 @@
                     <h2 class="accordion-header" id="headingThree">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Can I take this program in the weekends only?
+                            What's the difference between a 33 RPM and a 45 RPM vinyl record?
                         </button>
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                         data-bs-parent="#accordFAQ">
                         <div class="accordion-body">
-                            <p>Yes, We have a special feature for Saturdays</p>
+                            <p>The numbers 33 and 45 refer to the speed (revolutions per minute) at which the record spins on the turntable. A 33 RPM, or "Long Play" (LP), typically holds more music and is the standard size for albums. In contrast, a 45 RPM is generally smaller and often used for singles or extended plays (EPs).</p>
                         </div>
                     </div>
                 </div>
 
-                <!-- 
-                    Fourth accordion div item
-                    
-                    Adding this extra accordion element 
-                    by copying the same code above for the third accordion
-                    But we have to consider this simple changes:
-                    - id="headingFour" instead id="headingThree"
-                    - data-bs-target="#collapseFour" instead of data-bs-target="#collapseThree" 
-                    - aria-controls="collapseFour" instead of aria-controls="collapseThree"
-                    - id="collapseFour" instead of id="collapseThree" 
-                    - aria-labelledby="headingFour" instead of aria-labelledby="headingThree"
-                -->
+                <!-- Fourth accordion div item-->
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingFour">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            Can I use PC or MAC computer
+                            How do I clean my vinyl records to maintain optimal sound quality?
                         </button>
                     </h2>
                     <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                         data-bs-parent="#accordFAQ">
                         <div class="accordion-body">
-                            <p>Yes, you can use either one</p>
+                            <p>It's essential to clean vinyl records regularly to remove dust and prevent potential damage to the grooves. Before and after playing a record, use a carbon fiber brush to gently sweep away surface dust. For a deeper clean, a vinyl cleaning solution and microfiber cloth or a professional record cleaning machine can be used. Always clean in the direction of the grooves and ensure the record is dry before playing.</p>
                         </div>
                     </div>
                 </div>
@@ -592,121 +578,9 @@
         </div> <!-- end div.container -->
     </section> <!-- end section#faq-->
 
-    <!-- Students Testimonial -->
-    <section id="testimonial" class="mt-3 container">
-        <!-- 
-            Adding padding from to all sides with 3 points => .p-3
-            -->
-        <div id="carouselTestimonial" class="carousel slide bg-secondary p-3" data-bs-ride="carousel">
-            <!-- 
-            This div.carousel-inner will be the wrapper for the images
-            -->
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <!-- 
-                        Adding Border to the image:
-                        .p-1 => For adding padding of 1 point for all sides
-                        this will add nice little gap between the image and its border
-                        .border => The initial class for adding the border classes
-                        .border-2 => The thickness of the border
-                        from 1 (slim) to 5 (very thick)
-                        .border-white => White color border
-
-                        link: https://getbootstrap.com/docs/5.2/utilities/borders/
-                     -->
-                    <img src="images/carousel-student1.jpg"
-                        class="d-block m-auto w-25 rounded-circle p-1 border border-2 border-white" alt="...">
-                    <!-- 
-                    .carousel-caption: Add captions to your slides within any .carousel-item. 
-                    
-                    Removing this BS class .carousel-caption 
-                    to avoid displaying the text above the image
-
-                    Adding the following BS classes for each text 
-                    .lead => To mak the text standing out
-                    .text-center => center the text
-                    .text-white => white text
-                    -->
-                    <div class="lead text-center text-white">
-                        <h5>Joy Philip</h5>
-                        <p>I really enjoyed learning about Web Development in ABC Advanced Academy.</p>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <img src="images/carousel-student2.jpg"
-                        class="d-block m-auto w-25 rounded-circle p-1 border border-2 border-white" alt="...">
-                    <div class="lead text-center text-white">
-                        <h5>Smith Martinez</h5>
-                        <p>We had a very user-friendly environment with great supports from our instructors</p>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <img src="images/carousel-student3.jpg"
-                        class="d-block m-auto w-25 rounded-circle p-1 border border-2 border-white" alt="...">
-                    <div class="lead text-center text-white">
-                        <h5>Sarah Grayson</h5>
-                        <p>ABC Advanced Academy helped me to achieve my dreams and reach my goals!</p>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <img src="images/carousel-student4.jpg"
-                        class="d-block m-auto w-25 rounded-circle p-1 border border-2 border-white" alt="...">
-                    <div class="lead text-center text-white">
-                        <h5>Kenneth Willson</h5>
-                        <p>Now I have the confidence to start building modern websites with the most updated tools</p>
-                    </div>
-                </div>
-            </div> <!-- end div.carousel-inner -->
-
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselTestimonial"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselTestimonial"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-
-            <!-- 
-                This original BS div was div.carousel-indicators
-                I moved it to the bottom and removed the class .carousel-indicators
-                adding BS classes:
-                .text-center
-             -->
-            <div class="text-center">
-                <!-- 
-                    Customizing the indicator icons:
-                    .rounded-pill => make it rounded like pill
-                    .p-2 => adding padding of 2 points
-                    .border => the default basic BS border
-                 -->
-                <button type="button" data-bs-target="#carouselTestimonial" data-bs-slide-to="0"
-                    class="active rounded-pill p-2 border" aria-current="true" aria-label="Slide 1">
-                </button>
-
-                <button type="button" data-bs-target="#carouselTestimonial" data-bs-slide-to="1"
-                    class="rounded-pill p-2 border" aria-label="Slide 2">
-                </button>
-
-                <button type="button" data-bs-target="#carouselTestimonial" data-bs-slide-to="2"
-                    class="rounded-pill p-2 border" aria-label="Slide 3">
-                </button>
-
-                <!-- Adding one more button for the fourth image -->
-                <button type="button" data-bs-target="#carouselFeatures" data-bs-slide-to="3"
-                    class="rounded-pill p-2 border" aria-label="Slide 4">
-                </button>
-            </div>
-        </div> <!-- end div#carouselTestimonial .carousel" -->
-    </section> <!-- end section#testimonial -->
-
-    <!-- Contact Us: -->
-    <section id="contact" class="mt-3 container">
+   
+     <!-- Contact Us: -->
+     <section id="contact" class="mt-3 container">
         <div class="row">
             <div class="col-md-6">
                 <h2 class="text-center">Get in touch</h2>
@@ -877,11 +751,6 @@
         </div> <!-- end div.row -->
     </section> <!-- end section#contact -->
 
-    <!-- Subscribe Section -->
-    <!-- 
-        Adding padding for 4px from all the sides
-        .mt-3 => margin of 3 points from the top 
-    -->
     <section id="subscribe" class="bg-info text-light mt-3 p-4 text-center">
         <div class="container">
             <!-- No need for Row and Columns classes here -->
